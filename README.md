@@ -20,7 +20,7 @@ BepInEx 5.x mod for [Word Play][WordPlay] to give a [Neuro Game SDK][NeuroGameSD
 
 ## Contributing
 
-Outside contributions aren't accepted at this time.
+Please ask and discuss in the Word Play Integration thread in Neuro-sama Headquarters beforehand.
 
 [WordPlay]: https://store.steampowered.com/app/3586660/Word_Play/
 [NeuroGameSDK]: https://github.com/VedalAI/neuro-game-sdk
