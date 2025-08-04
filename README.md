@@ -5,7 +5,7 @@ BepInEx 5.x mod for [Word Play][WordPlay] to give a [Neuro Game SDK][NeuroGameSD
 ## Usage
 
 > [!TIP]
-> A pre-built `.dll` is available through GitHub Actions. This references a provided `Assembly-CSharp.dll` for Word Play version 1.07.
+> A pre-built `.dll` is available through [GitHub Actions](GitHubActions). This is pinned to Word Play version 1.07.
 
 1. Install the latest [BepInEx][BepInExReleases] 5.x release to Word Play
 2. Clone or download the repository
@@ -15,6 +15,8 @@ BepInEx 5.x mod for [Word Play][WordPlay] to give a [Neuro Game SDK][NeuroGameSD
     1. Modify `NeuroWordPlay.csproj` and update `<WordPlay>` in the second `<PropertyGroup>` to point to an absolute path of `<Game Install Directory>/Word Play_Data/Managed`
 4. Build the project
 5. Copy `bin/Debug/netstandard2.1/NeuroWordPlay.dll` to `BepInEx/plugins/` in the game directory
+6. Launch the game with the `NEURO_SDK_WS_URL` environment variable set.
+    - If running through Steam: right click Word Play in your library, click 'Properties', then enter the following into 'Launch Options': `NEURO_SDK_WS_URL=ws://localhost:8000 %command%`
 
 ## Contributing
 
@@ -22,4 +24,5 @@ Outside contributions aren't accepted at this time.
 
 [WordPlay]: https://store.steampowered.com/app/3586660/Word_Play/
 [NeuroGameSDK]: https://github.com/VedalAI/neuro-game-sdk
+[GitHubActions]: https://github.com/VanillaSixtySix/NeuroWordPlay/actions/workflows/build.yml
 [BepInExReleases]: https://github.com/BepInEx/BepInEx/releases/

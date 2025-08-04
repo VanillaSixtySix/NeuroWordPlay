@@ -18,7 +18,6 @@ public class Plugin : BaseUnityPlugin
         // Plugin startup logic
         Logger = base.Logger;
 
-        Environment.SetEnvironmentVariable("NEURO_SDK_WS_URL", "ws://localhost:8000");
         NeuroSdkSetup.Initialize("Word Play");
 
         Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
