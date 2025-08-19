@@ -13,8 +13,8 @@ public class TitleScreen
     static void Start(TitleScreenManager __instance, TMP_Text ___versionNo)
     {
         ___versionNo.enableWordWrapping = false;
-        Plugin.Logger.LogDebug("Last tested on 1.082");
-        if (Application.version.StartsWith("1.08"))
+        Plugin.Logger.LogDebug("Last tested on 1.09");
+        if (Application.version.StartsWith("1.09"))
         {
             ___versionNo.text += " (Neuro SDK)";
         }
