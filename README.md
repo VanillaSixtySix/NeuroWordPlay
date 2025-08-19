@@ -5,7 +5,7 @@ BepInEx 5.x mod for [Word Play][WordPlay] to give a [Neuro Game SDK][NeuroGameSD
 ## Usage
 
 > [!TIP]
-> A pre-built `.dll` is available through [GitHub Actions][GitHubActions]. This is pinned to Word Play version 1.07.
+> A pre-built `.dll` is available through [GitHub Actions][GitHubActions]. This is pinned to Word Play version 1.09.
 
 1. Install the latest [BepInEx][BepInExReleases] 5.x release to Word Play
 2. Clone or download the repository
